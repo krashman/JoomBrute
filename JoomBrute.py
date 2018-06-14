@@ -53,7 +53,7 @@ class color:
 
 try:
     pass_list = open(wordlist, 'r').readlines()
-    print '[+] Starting Bruteforce...'
+    print '[+] Starting dictionary attack on ' + color.y + url + color.b
     print '[+] Using password wordlist ' + color.y + wordlist + color.b + ' and username ' + color.y + username +'.' + color.b
 
     time.sleep(3)
@@ -78,6 +78,7 @@ def DoTheThing(url,username,list):
     if someText:
         goodNews = someText.groups()
         print color.g + "[!] Cracked: " + color.b + username + " : " + str.strip(list)
+        print "[+] Finished!"
         sys.exit(1)
     else:
         print color.r + "[*] Trying: " + color.b + username + " : " + str.strip(list)
