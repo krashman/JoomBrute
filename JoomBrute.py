@@ -1,6 +1,6 @@
 #/usr/bin/python
 # -*- coding: utf-8 -*-
-# Joomla Admin Bruteforcer
+# Joomla (3.8.8) Admin Bruteforcer
 # Update: June 14 2018
 # Requirements: pip install robobrowser 
 # python 2.7
