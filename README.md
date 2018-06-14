@@ -1,5 +1,5 @@
 # JoomBrute
-Joomla Admin Bruteforce Tool
+Joomla (3.8.8) Admin Bruteforce Tool
 
 Usage: python joombrute.py --url http://site/administrator --username user --wordlist passwords.txt
 
