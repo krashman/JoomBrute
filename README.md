@@ -5,4 +5,4 @@ Usage: python joombrute.py --url http://site/administrator --username user --wor
 
 ![Screenshot](https://raw.githubusercontent.com/0rbz/JoomBrute/master/joombrute1.png)
 
-* The author is not responsible for the misuse of this tool.
+* The author is not responsible for the misuse of this tool. 
