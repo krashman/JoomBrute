@@ -72,8 +72,8 @@ def DoTheThing(url,username,list):
 
     robot.submit_form(form)
 
-    response = robot.find_all(text = re.compile('System'))
-    someText = re.search("System", str(response))
+    response = robot.find_all(text = re.compile('Control Panel'))
+    someText = re.search("Control Panel", str(response))
 
     if someText:
         goodNews = someText.groups()
